@@ -1,0 +1,66 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+html,
+body{
+    background-color:rgb(242, 242, 242);
+    margin:5px;
+    padding:15px;
+}
+hr{
+    color:rgb(230,221,230);
+}
+.navbar{
+    width:100%;
+}
+table{
+    width:100%;
+}
+header{
+    text-align: center;
+}
+.headername{
+    font-family:monospace;
+    line-height:64px;
+    font-size:3em;
+
+}
+.link{
+    color:black;
+    text-decoration: none;
+    
+}
+/* Articles */
+#mainimage{ 
+    float:left;
+    margin:20px;
+}
+#first-info {
+    font-style:italic;
+    float:left;
+}
+article > #article1 {
+   background-color:rgb(212, 205, 205);
+    color:black;
+    margin:15px;
+}
+#article2 {
+    margin:15px;
+    
+}
+#article3 {
+    margin:15px;
+}
+.figaro{
+    font-family: monospace;
+}
+/* Footer */
+footer{
+    line-height:50px ;
+    background-color:rgb(212, 205, 205);
+}
