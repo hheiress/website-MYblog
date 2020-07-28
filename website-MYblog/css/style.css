@@ -44,17 +44,14 @@ header{
     font-style:italic;
     float:left;
 }
-article > #article1 {
+.article:first-child {
    background-color:rgb(212, 205, 205);
     color:black;
     margin:15px;
 }
-#article2 {
+.article {
     margin:15px;
     
-}
-#article3 {
-    margin:15px;
 }
 .figaro{
     font-family: monospace;
